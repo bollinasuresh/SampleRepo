@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LearningTestNg" parallel="classes" thread-count="3">
+	<test name="TesngParallel">
+		<classes>
+			<class name="com.src.testng.TestNGParallel.Chrome" />
+			<class name="com.src.testng.TestNGParallel.Firefox" /> 
+			<class name="com.src.testng.TestNGParallel.Internet" /> 
+		</classes>
+	</test>
+</suite>
