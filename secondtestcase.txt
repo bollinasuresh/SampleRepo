@@ -1,0 +1,5 @@
+Adding a new test case summary:
+
+1) Login to website
+2) do some activity
+3) Logout from website
